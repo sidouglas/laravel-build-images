@@ -21,9 +21,6 @@
   "bugs": {
     "url": "https://github.com/sidouglas/laravel-build-images/issues"
   },
-  "bin": {
-    "laravel-build-images": "node ./distribution/index.js"
-  },
   "homepage": "https://github.com/sidouglas/laravel-build-images#readme",
   "dependencies": {
     "bluebird": "^3.5.0",
