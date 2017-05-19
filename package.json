@@ -1,0 +1,29 @@
+{
+  "name": "laravel-build-images",
+  "version": "1.0.0",
+  "description": "A utility to pregenerate your images from a source directory and output to a destination at a range of sizes",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ./index.js --source='./test' --destination='./test-out' --images='320,325,108,120,50,25'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sidouglas/laravel-build-images.git"
+  },
+  "keywords": [
+    "laravel",
+    "image"
+  ],
+  "author": "Simon Douglas",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/sidouglas/laravel-build-images/issues"
+  },
+  "homepage": "https://github.com/sidouglas/laravel-build-images#readme",
+  "dependencies": {
+    "bluebird": "^3.5.0",
+    "fs-extra": "^3.0.1",
+    "sharp": "^0.17.3",
+    "yargs": "^8.0.1"
+  }
+}
