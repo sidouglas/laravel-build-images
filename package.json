@@ -22,7 +22,7 @@
     "url": "https://github.com/sidouglas/laravel-build-images/issues"
   },
   "bin": {
-    "laravel-build-images": "node ./src/index.js"
+    "laravel-build-images": "node ./distribution/index.js"
   },
   "homepage": "https://github.com/sidouglas/laravel-build-images#readme",
   "dependencies": {
