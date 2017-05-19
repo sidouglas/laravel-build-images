@@ -6,7 +6,7 @@
   "scripts": {
     "prepublish": "npm run build",
     "build": "babel source --presets babel-preset-es2015 --out-dir distribution",
-    "test": "node ./index.js --source='./test' --destination='./test-out' --images='320,325,108,120,50,25'"
+    "test": "node ./distribution/index.js --source='./test' --destination='./test-out' --images='320,325,108,120,50,25'"
   },
   "repository": {
     "type": "git",
